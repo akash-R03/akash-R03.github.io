@@ -33,6 +33,7 @@
 body{
     font-family: 400 Lato, sans-serif;
     overflow-y: : scroll;
+    position: relative;
      }
          @-moz-document url-prefix() { /* Disable scrollbar Firefox */
             html{
@@ -69,11 +70,15 @@ html{
 }
 
   </style>
-
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+});
+</script>
 
 </head>
 
-<body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" oncontextmenu="return false">
+<body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="90" oncontextmenu="return false">
 
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info shadow" id="mainNav">
