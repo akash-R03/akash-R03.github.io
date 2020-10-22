@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content=""> <!-- description for google search engine -->
-  <meta name="author" content="">
+  <meta name="author" content="Bharath Textile Engineering">
 
   <title>Bharath Textile Engineering</title>
 
@@ -17,25 +17,28 @@
   <link href="css/scrolling-nav.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
   
   <style type="text/css">
-    .carousel {
+    .carousel-top {
   max-height: 500px;
   overflow: hidden;
-}
+
   .carousel-item {
     width: 100%;
     height: auto;
-  }
-
-
-  
+  }}
+ .scrollclass{
+  overflow-x: scroll;
+  overflow-y: none;
+  scrrollbar-height: 1px;
+ }
 body{
     font-family: 400 Lato, sans-serif;
     overflow-y: : scroll;
     position: relative;
      }
-         @-moz-document url-prefix() { /* Disable scrollbar Firefox */
+ @-moz-document url-prefix() { /* Disable scrollbar Firefox */
             html{
               scrollbar-width: none;
             }
@@ -72,16 +75,10 @@ html{
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-    background: #FF0000;
+    background: #38A1AF;
 }
 
   </style>
-<script type="text/javascript">
-  $(document).ready(function(){
-  $('body').scrollspy({target: ".navbar", offset: 50});   
-});
-</script>
-
 </head>
 
 <body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="90" oncontextmenu="return false">
@@ -123,7 +120,7 @@ html{
 
   <header class="bg-primary text-white p-0 mh-100">
     <div class="container-fluid p-0" >
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel"  data-interval="2000">
+      <div id="carouselExampleControls" class="carousel carousel-top slide" data-ride="carousel"  data-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
                <img class="d-block w-100 " src="la.jpg" alt="First slide">
@@ -179,14 +176,51 @@ Our intensive industry experience and know-how has helped us carve a niche for o
   </section>
 
   <section id="services" class="bg-light">
-    <div class="container">
+     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Products</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        <div class="col-lg-12">
+      <h2 style="text-align: center; padding-bottom: 4vw;">Products</h1>    
         </div>
       </div>
-    </div>
+      <div class="scrollclass row flex-row flex-nowrap d-inline-flex shadow-sm p-3 mb-5 rounded">
+      <div class="col-3">
+            <div class="card ">
+              <img src="8493-2.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card ">
+              <img src="8453.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="card ">
+              <img src="8469.jpg" class="card-img-top" alt="...">
+         </div>
+        </div>
+        <div class="col-3">
+            <div class="card ">
+              <img src="8503.jpg" class="card-img-top" alt="...">
+     </div>
+        </div>
+        <div class="col-3">
+            <div class="card ">
+              <img src="8491-2.jpg" class="card-img-top" alt="...">
+           </div>
+        </div>
+        ...<div class="col-3">
+            <div class="card ">
+              <img src="8506-2.jpg" class="card-img-top" alt="...">
+           </div>
+        </div>
+        <div class="col-3">
+            <div class="card ">
+              <img src="8482-2.jpg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        
+    </div> 
+</div>
   </section>
   <section id="customer">
 
