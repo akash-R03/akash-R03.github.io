@@ -36,7 +36,7 @@
   scrrollbar-height: 1px;
  }
 body{
-    font-family: 400 Lato, sans-serif;
+    font-family: 400 Lato, Montserrat, sans-serif;
     overflow-y: : scroll;
     position: relative;
      }
@@ -56,7 +56,9 @@ body{
     width: 100%;
     color: #FFF;
     text-align: center;
-    text-shadow: 0.5px 0.5px 10px grey 
+    text-underline-position: center;
+    font-family: Montserrat
+
 }
 html{
   -webkit-touch-callout: none;
@@ -80,15 +82,28 @@ html{
     background: #38A1AF;
 }
 
+.imgbg{
+  overflow: none;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  max-height: 500px;
+
+}
+.bgcolo{
+  background-color: #323F67
+}
+
   </style>
 </head>
 
 <body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="90" oncontextmenu="return false">
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info shadow" id="mainNav">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bgcolo shadow" id="mainNav">
     <div class="container-fluid ">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><h4 class="display-6"> Logo</h4></a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <img src="300logo.png" alt="logo" style=" ">
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -101,11 +116,12 @@ html{
                <li class="nav-item">
                      <a class="nav-link js-scroll-trigger" href="#about">About</a>
                </li>
-               <li class="nav-item">
-                      <a class="nav-link js-scroll-trigger" href="#quality">Quality</a>
-               </li>
+               
                <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#services">Products</a>
+               </li>
+               <li class="nav-item">
+                      <a class="nav-link js-scroll-trigger" href="#quality">Quality</a>
                </li>
                <li class="nav-item">
                       <a class="nav-link js-scroll-trigger" href="#customer">Customers</a>
@@ -122,6 +138,7 @@ html{
 
   <header class="bg-primary text-white p-0 mh-100">
     <div class="container-fluid p-0" >
+      <img class="imgbg d-block w-100 responsive " src="unitpic.png" alt="unit " >
      <!-- <div id="carouselExampleControls" class="carousel carousel-top carousel-fade h-25 slide" data-ride="carousel"  data-interval="2000">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -153,6 +170,13 @@ html{
                       </div>
                     </div>
 </div>-->
+<div class="main-text hidden-sm">
+                
+                   <p><h1><b>B</b>harath</h1>
+                    <h3>Textile Engineers</h3></p>
+                    </div>
+                    </div>
+
   </header>
 
   <section id="about" class="bg-light">
@@ -170,17 +194,6 @@ Our intensive industry experience and know-how has helped us carve a niche for o
       </div>
     </div>
     
-  </section>
-  <section id="quality">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Quality</h2>
-          <p class="lead" style="text-align: justify;">Our main aim is to produce high quality components complying with international standards. Being an ISO 9001: 2015 company, we look into quality at each step of the process in producing a component, and make sure to strictly check every component with customer specified standards. With our technical expertise, we can produce high quality and complex components adhering to customer needs.
-</p>
-        </div>
-      </div>
-    </div>
   </section>
 
   <section id="services" class="bg-light">
@@ -247,7 +260,17 @@ Our intensive industry experience and know-how has helped us carve a niche for o
     </div>
 </div>
 </div>
-
+<section id="quality">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Quality</h2>
+          <p class="lead" style="text-align: justify;">Our main aim is to produce high quality components complying with international standards. Being an ISO 9001: 2015 company, we look into quality at each step of the process in producing a component, and make sure to strictly check every component with customer specified standards. With our technical expertise, we can produce high quality and complex components adhering to customer needs.
+</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   </section>
   <section id="customer">
