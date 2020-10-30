@@ -41,17 +41,9 @@ body{
           }
          
   .abt{
-    font-family: roboto, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: bold;
   }
-.main-text
-{
-    position: absolute;
-    top: 250px;
-    width: 100%;
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
 
 }
 html{
@@ -75,11 +67,13 @@ html{
 ::-webkit-scrollbar-thumb {
     background: #38A1AF;
 }
-
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
 .imgbg{
   overflow: none;
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
   max-height: 500px;
 
 }
@@ -90,7 +84,7 @@ html{
   </style>
 </head>
 
-<body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="90" oncontextmenu="return false">
+<body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="140" oncontextmenu="return false">
 
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bgcolo shadow" id="mainNav">
@@ -130,15 +124,10 @@ html{
 </div>
   </nav>
 
-  <header class="bg-primary text-white p-0 mh-100">
+  <header class="bg-light text-white p-0 mh-100">
     <div class="container-fluid p-0" >
-     <img class="imgbg d-block w-100 responsive " src="unitpic.png" alt="unit " >
-     
-<div class="main-text hidden-sm display-6">
-                
-                   <p><h1><b>B</b>harath</h1>
-                    <h3>Textile Engineers</h3></p>
-                    </div>
+     <img class="imgbg d-block w-100 responsive " src="1028unitpic.png" alt="unit " >
+  
                     </div>
 
   </header>
@@ -160,78 +149,94 @@ Our intensive industry experience and know-how has helped us carve a niche for o
     
   </section>
 
-  <section id="services" class="bg-light">
+  <section id="services" >
      <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-md-12">
              <h2 style="text-align: center; padding-bottom: 4vw; "class="abt">Products</h2>    
         </div>
       </div>
-          <div class=" row flex-row flex-nowrap d-inline-flex shadow-sm p-3 mb-5 rounded">
-        
-    <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="2000">
-        <div class="carousel-inner row w-10 mxauto" role="listbox">
-            <div class="carousel-item col-md-4 active">
-                <div class="card card-body">
-                  <img src="prod.jpg" class="card-img-top" alt="pot.png">
+          
+    <div class="container text-center my-3">
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner w-100" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="prod.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                           <img src="8493-2.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8453.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8469.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8503.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8491-2.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8506-2.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
+                </div><div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img src="8482-2.jpg" class="card-img-top" alt="pot.png">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body ">
-              <img src="8493-2.jpg" class="card-img-top" alt="pot.png">
-            </div>
-            </div>
-            <div class="carousel-item col-md-4">
-              <div class="card card-body ">
-              <img src="8453.jpg" class="card-img-top" alt="pot.png">
-            </div>
-            </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body ">
-              <img src="8469.jpg" class="card-img-top" alt="pot.png">
-         </div>
-            </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body">
-              <img src="8503.jpg" class="card-img-top" alt="pot.png">
-     </div>
-            </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body">
-              <img src="8491-2.jpg" class="card-img-top" alt="pot.png">
-           </div>
-            </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body">
-              <img src="8506-2.jpg" class="card-img-top" alt="pot.png">
-           </div>
-            </div>
-            <div class="carousel-item col-md-4">
-                <div class="card card-body ">
-              <img src="8482-2.jpg" class="card-img-top" alt="pot.png">
-            </div>
-            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
-       
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
+    
 </div>
-
 </div>
 </section>
-<section id="quality">
+<section id="quality" class="bg-light">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-md-8 mx-auto">
           <h2 class="abt">Quality</h2>
-          <p class="lead" style="text-align: justify;">Our main aim is to produce high quality components complying with international standards. Being an ISO 9001: 2015 company, we look into quality at each step of the process in producing a component, and make sure to strictly check every component with customer specified standards. With our technical expertise, we can produce high quality and complex components adhering to customer needs.
+          <p class="cont" style="text-align: justify;">Our main aim is to produce high quality components complying with international standards. Being an ISO 9001: 2015 company, we look into quality at each step of the process in producing a component, and make sure to strictly check every component with customer specified standards. With our technical expertise, we can produce high quality and complex components adhering to customer needs.
 </p>
         </div>
       </div>
@@ -242,8 +247,8 @@ Our intensive industry experience and know-how has helped us carve a niche for o
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-12">
-      <h2 style="text-align: center; padding-bottom: 4vw;" class="abt">Our Customers</h2>    
+        <div class="col-md-12">
+      <h2 style="text-align: center; " class="abt">Our Customers</h2>    
         </div>
       </div>
       
@@ -251,20 +256,20 @@ Our intensive industry experience and know-how has helped us carve a niche for o
       <div class="row">
 
         
-        <div class="col-lg-2 mx-auto">
+        <div class="col-md-2 mx-auto">
           <img src="caterpillar.png" class=" img-fluid" alt="Caterpillar" style="padding-top: 2vw">
         </div>
         
-         <div class="col-lg-2 mx-auto">
+         <div class="col-md-2 mx-auto">
           <img src="ssil.jpg" class="img-fluid" alt="Super Sales" height="auto"  style="padding-top: 3vw">
         </div>
-        <div class="col-lg-2 mx-auto">
+        <div class="col-md-2 mx-auto">
           <img src="lmwlogo.png" class=" img-fluid d-block" alt="LMW" height="auto">
         </div>
-        <div class="col-lg-2 mx-auto">
+        <div class="col-md-2 mx-auto">
           <img src="ARGO-HYTOS-Logo.png" class="img img-fluid" alt="ARGO-HYTOS" style="padding-top: 2vw" height="auto">
         </div>
-        <div class="col-lg-2 mx-auto">
+        <div class="col-md-2 mx-auto">
           <img src="bosch.png" class=" img-fluid" alt="bosch" height="auto" style="padding-top: 2vw">
         </div>
        
@@ -274,25 +279,27 @@ Our intensive industry experience and know-how has helped us carve a niche for o
     
   </section>
 
-  <section id="contact" class="bg-light">
+  <section id="contact" class="bg-light" >
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-11 mx-auto">
+        <div class="col-md-11 mx-auto">
           <h2 class="abt">Contact us</h2>
         </div>
       </div>
       <div class="container">
       <div class="row">
-        <div class="col-lg-3 mx-auto ">
-          <h4 style="">Address</h3>
-           <p class="lead" style="text-align: left; padding-left: 1vw ">73ab, Railway Feeder Road, 
+        <div class="col-md-4 mx-auto ">
+           <p class="cont" style="text-align: left; padding-left: 1vw ">73ab, Railway Feeder Road, 
                           Periyanaickenpalayam, <br>Coimbatore - 641020.<br> 
+
+
+<br>
 Landline: 0422 2692692 ; 0422 2697746<br>
 Email: @bte.com
 
 </p>
         </div>
-        <div class="col-lg-7 mx-auto map-responsive">
+        <div class="col-md-7 mx-auto map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.551164374248!2d76.94594521432953!3d11.146767355297674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f133460f7235%3A0x413d358933914175!2sBharath%20Textile%20Engineers!5e0!3m2!1sen!2sin!4v1601991448408!5m2!1sen!2sin" width="100%" height="100%" frameborder="1px black" style="border:1px ; box-shadow: 1px 1px 10px grey;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
         
@@ -318,37 +325,31 @@ Email: @bte.com
 
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
-<script type="text/javascript">
-  $('#carouselExample').on('slide.bs.carousel', function (e) {
+<script>
+  $('#recipeCarousel').carousel({
+  interval: 3000
+})
 
-    /*
-
-    CC 2.0 License Iatek LLC 2018
-    Attribution required
-    
-    */
-
-    var $e = $(e.relatedTarget);
-    
-    var idx = $e.index();
-    console.log("IDX :  " + idx);
-    
-    var itemsPerSlide = 8;
-    var totalItems = $('.carousel-item').length;
-    
-    if (idx >= totalItems-(itemsPerSlide-1)) {
-        var it = itemsPerSlide - (totalItems - idx);
-        for (var i=0; i<it; i++) {
-            // append slides to end
-            if (e.direction=="left") {
-                $('.carousel-item').eq(i).appendTo('.carousel-inner');
-            }
-            else {
-                $('.carousel-item').eq(0).appendTo('.carousel-inner');
-            }
-        }
+$('.carousel .carousel-item').each(function(){
+    var minPerSlide = 3;
+    var next = $(this).next();
+    if (!next.length) {
+    next = $(this).siblings(':first');
     }
+    next.children(':first-child').clone().appendTo($(this));
+    
+    for (var i=0;i<minPerSlide;i++) {
+        next=next.next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        
+        next.children(':first-child').clone().appendTo($(this));
+      }
 });
+
+
+ 
 </script>
 </body>
 
