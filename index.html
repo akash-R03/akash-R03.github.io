@@ -15,11 +15,23 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:wght@500&family=Karla&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&family=Karla&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/caro.css">
   <style type="text/css">
-  
+  #about {padding-top:100px;height:600px;}
+  #quality {padding-top:170px;height:600px;}
+  #customer {padding-top:170px;height:600px;}
+  #services {padding-top:120px;height:600px;}
+  #contact {padding-top:110px;height:600px;}
+  header{padding-top: 114px;max-height:600px;}
+  @media screen and (max-width: 760px) {
+  #customer {padding-top:110px;height:2000px;}
+}
+@media screen and (max-width: 450px) {
+  #customer {padding-top:110px;height:1500px;}
+}
+
  .scrollclass{
   overflow-x: scroll;
   overflow-y: none;
@@ -69,7 +81,6 @@ html{
 }
 .card-img-top {
     width: 100%;
-    /*height: 20vw;*/
     object-fit: cover;
 }
 .imgbg{
@@ -84,13 +95,17 @@ html{
   </style>
 </head>
 
-<body id="page-top" class="scroll" data-spy="scroll" data-target=".nav-item" data-offset="210" oncontextmenu="return false">
+<body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="130" oncontextmenu="return false" >
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bgcolo shadow" id="mainNav">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bgcolo shadow" id="mainNav" >
     <div class="container-fluid ">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="300logo.png" alt="logo" style=" ">
+        <picture>
+  <source srcset="150logo.png" media="(max-width: 400px)">
+  <source srcset="300logo.png">
+  <img src="300logo.png" alt="logo">
+</picture>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -124,9 +139,9 @@ html{
 </div>
   </nav>
 
-  <header class="bg-light text-white p-0 mh-100">
+  <header class="bg-light text-white mh-100">
     <div class="container-fluid p-0" >
-     <img class="imgbg d-block w-100 responsive " src="1028unitpic.png" alt="unit" loading="lazy" >
+     <img class="imgbg d-block w-100  responsive " src="9.jpg" alt="unit" >
   
                     </div>
 
@@ -164,55 +179,55 @@ Our intensive industry experience and know-how has helped us carve a niche for o
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="prod.jpg" class="card-img-top" alt="pot.png">
+                            <img src="1.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                           <img src="8493-2.jpg" class="card-img-top" alt="pot.png">
+                           <img src="2.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8453.jpg" class="card-img-top" alt="pot.png">
+                            <img src="3.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8469.jpg" class="card-img-top" alt="pot.png">
+                            <img src="4.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8503.png" class="card-img-top responsive" alt="pot.png">
+                            <img src="5.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8491-2.jpg" class="card-img-top" alt="pot.png">
+                            <img src="6.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8506-2.jpg" class="card-img-top" alt="pot.png">
+                            <img src="7.jpg" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div><div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img src="8482-2.jpg" class="card-img-top" alt="pot.png">
+                            <img src="8.png" class="card-img-top" alt="pot.png">
                         </div>
                     </div>
                 </div>
@@ -232,7 +247,7 @@ Our intensive industry experience and know-how has helped us carve a niche for o
 </div>
 </section>
 <section id="quality" class="bg-light">
-    <div class="container-fluid ">
+    <div class="container-fluid h-25">
       <div class="row">
         <div class="col-md-8 mx-auto">
           <h2 class="abt">Quality</h2>
@@ -245,7 +260,7 @@ Our intensive industry experience and know-how has helped us carve a niche for o
 
   <section id="customer" >
 
-    <div class="container-fluid" style="padding-bottom: 10vw;">
+    <div class="container-fluid responsive" style="padding-bottom: 10vw;">
       <div class="row">
         <div class="col-md-12">
       <h2 style="text-align: center; " class="abt">Our Customers</h2>    
@@ -299,6 +314,7 @@ Email: @bte.com
 
 </p>
         </div>
+
         <div class="col-md-7 mx-auto map-responsive">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.551164374248!2d76.94594521432953!3d11.146767355297674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f133460f7235%3A0x413d358933914175!2sBharath%20Textile%20Engineers!5e0!3m2!1sen!2sin!4v1601991448408!5m2!1sen!2sin" width="100%" height="100%" frameborder="1px black" style="border:1px ; box-shadow: 1px 1px 10px grey;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
@@ -327,7 +343,7 @@ Email: @bte.com
   <script src="js/scrolling-nav.js"></script>
 <script>
   $('#recipeCarousel').carousel({
-  interval: 3000
+  interval: 2000
 })
 
 $('.carousel .carousel-item').each(function(){
