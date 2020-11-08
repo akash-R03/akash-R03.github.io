@@ -18,81 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat&family=Karla&family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/caro.css">
-  <style type="text/css">
-  #about {padding-top:100px;height:600px;}
-  #quality {padding-top:170px;height:600px;}
-  #customer {padding-top:170px;height:600px;}
-  #services {padding-top:120px;height:600px;}
-  #contact {padding-top:110px;height:600px;}
-  header{padding-top: 114px;max-height:600px;}
-  @media screen and (max-width: 760px) {
-  #customer {padding-top:110px;height:2000px;}
-}
-@media screen and (max-width: 450px) {
-  #customer {padding-top:110px;height:1500px;}
-}
-
- .scrollclass{
-  overflow-x: scroll;
-  overflow-y: none;
-  scrrollbar-height: 1px;
- }
- .cont{
- font-family: verdana, sans-serif; 
- line-height: 1.5 px;
- }
-body{
-
-    overflow-y: : scroll;
-    position: relative;
-     }
- @-moz-document url-prefix() { /* Disable scrollbar Firefox */
-            html{
-              scrollbar-width: none;
-            }
-          }
-         
-  .abt{
-    font-family: Montserrat, sans-serif;
-    font-weight: bold;
-  }
-
-}
-html{
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;  
-    margin: 0; /* remove default margin */
-            scrollbar-width: none; /* Also needed to disable scrollbar Firefox */
-            -ms-overflow-style: none;  /* Disable scrollbar IE 10+ */
-            overflow-y: scroll;
-
-}
-::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: #38A1AF;
-}
-.card-img-top {
-    width: 100%;
-    object-fit: cover;
-}
-.imgbg{
-  overflow: none;
-  max-height: 500px;
-
-}
-.bgcolo{
-  background-color: #323F67
-}
-
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/stylings.css">
 </head>
 
 <body id="page-top" class="scroll" data-spy="scroll" data-target=".navbar" data-offset="130" oncontextmenu="return false" >
@@ -363,9 +289,6 @@ $('.carousel .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
       }
 });
-
-
- 
 </script>
 </body>
 
